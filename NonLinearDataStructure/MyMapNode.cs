@@ -9,6 +9,7 @@ namespace NonLinearDataStructure
     public class MyMapNode<K, V>
     {
         //UC1
+        //Find frequency of words
         private int size;
         private LinkedList<KeyValue<K, V>>[] items;
         public MyMapNode(int size)
